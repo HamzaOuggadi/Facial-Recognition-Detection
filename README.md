@@ -92,6 +92,14 @@
 
 <img align="center" src="/readmeImgs/DBSize.png">
 
+<ul>
+    <li>LBPH is one of the easiest face recognition algorithms.</li>
+    <li>It can represent local features in the images.</li>
+    <li>It is possible to get great results (mainly in a controlled environment).</li>
+    <li>It is robust against monotonic gray scale transformations.</li>
+    <li>It is provided by the OpenCV library (Open Source Computer Vision Library).</li>
+</ul>
+
 ## Video Sample & Screenshots
 
 <p>Video Demo :</p>
