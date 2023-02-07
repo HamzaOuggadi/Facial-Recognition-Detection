@@ -76,7 +76,9 @@
 
 ## Video Sample & Screenshots
 
-{% include youtube.html id="rZxZHQHujmg" %}
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/rZxZHQHujmg/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=rZxZHQHujmg)
 
 <h4 align="center">Home Page</h4>
 <img src="/screenshots/HomePage.png" alt="">
