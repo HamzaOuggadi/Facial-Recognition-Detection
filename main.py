@@ -34,12 +34,12 @@ while(True):
             print(labels[id_])
             font = cv2.FONT_HERSHEY_SIMPLEX
             name = labels[id_]
-            color_ = (255, 0, 0)
+            color_ = (0, 0, 255)
             stroke_ = 2
             cv2.putText(frame, name, (x, y-10), font, 1, color_, stroke_, cv2.LINE_AA)
 
         # Rectangle
-        color = (255, 0, 0)
+        color = (0, 0, 255)
         stroke = 3
         end_width = x + w
         end_height = y + h
