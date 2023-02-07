@@ -149,6 +149,18 @@ face_cascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_alt2.xml'
 cap = cv2.VideoCapture(0)
 ```
 
+<h3>Training the Algorithm :</h3>
+
+<p>To train the Algorithm several photos were used from photos found on the internet of celebrities and yours truly :</p>
+
+```bash
+├───images
+│   ├───Emilia-Clarke
+│   ├───Hamza-Ouggadi
+│   ├───Jeff-Bezos
+│   └───Peter-Dinklage
+```
+
 <p>Keycloak on the other hand, was deployed on a docker container and port bound to the Host Machine at port 8080.
 Then I've configured it with a New Realm named <b><em>pm-realm</em></b> and a new client <b><em>pm-client</em></b></p>
 
