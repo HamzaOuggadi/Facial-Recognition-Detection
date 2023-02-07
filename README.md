@@ -76,8 +76,14 @@
 
 ## Video Sample & Screenshots
 
+
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rZxZHQHujmg/0.jpg)](https://www.youtube.com/watch?v=rZxZHQHujmg)
 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=rZxZHQHujmg
+" target="_blank"><img src="http://img.youtube.com/vi/rZxZHQHujmg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 <h4 align="center">Home Page</h4>
 <img src="/screenshots/HomePage.png" alt="">
