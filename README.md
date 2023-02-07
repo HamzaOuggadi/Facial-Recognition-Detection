@@ -71,18 +71,6 @@
 <img align="center" src="/readmeImgs/img_1.png">
 
 
-## Video Sample & Screenshots
-
-<p>Video Demo :</p>
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rZxZHQHujmg/0.jpg)](https://www.youtube.com/watch?v=rZxZHQHujmg)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## Installation and Usage
-
 <p>With OpenCV we have a choice from multiple algorithms for Face Recognition : </p>
 
 <ul>
@@ -109,6 +97,20 @@
 <p>So in order to get good recognition rates you'll need at least 8(+-1) images for each person and the Fisherfaces method doesn't really help here. The above experiment is a 10-fold cross validated result carried out with the facerec framework at: https://github.com/bytefish/facerec. This is not a publication, so I won't back these figures with a deep mathematical analysis. Please have a look into [168] for a detailed analysis of both methods, when it comes to small training datasets.</p>
 
 <img align="center" src="/readmeImgs/DBSize.png">
+
+## Video Sample & Screenshots
+
+<p>Video Demo :</p>
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rZxZHQHujmg/0.jpg)](https://www.youtube.com/watch?v=rZxZHQHujmg)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Installation and Usage
+
+
 
 
 
