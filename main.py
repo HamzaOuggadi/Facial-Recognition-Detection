@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+face_cascade = cv2.CascadeClassifier()
 # Default integrated camera set to cap
 cap = cv2.VideoCapture(0)
 
