@@ -57,9 +57,6 @@
 <p>OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.</p>
 
 
-<p>Please find below the Technologies used for this Project.</p>
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -76,45 +73,44 @@
 
 ## Video Sample & Screenshots
 
-
+<p>Video Demo :</p>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rZxZHQHujmg/0.jpg)](https://www.youtube.com/watch?v=rZxZHQHujmg)
 
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=rZxZHQHujmg
-" target="_blank"><img src="http://img.youtube.com/vi/rZxZHQHujmg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-<h4 align="center">Home Page</h4>
-<img src="/screenshots/HomePage.png" alt="">
-
-<h4 align="center">Products Page</h4>
-<img src="/screenshots/ProductList.png" alt="">
-
-<h4 align="center">Edit Product Page</h4>
-<img src="/screenshots/EditProductPage.png" alt="">
-
-<h4 align="center">Customers List Page</h4>
-<img src="/screenshots/CustomerList.png" alt="">
-
-<h4 align="center">Add Customer Page</h4>
-<img src="/screenshots/AddCustomer.png" alt="">
-
-<h4 align="center">Authentication Panel</h4>
-<img src="/screenshots/AuthPanel.png" alt="">
-
-<h4 align="center">Bill Page</h4>
-<img src="/screenshots/Bill.png" alt="">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Installation and Usage
 
-<p>At startup the Backend will generate 4 customers, 40 Products and bills for each customer that have been
-populated with the given products for demonstration purposes, so no need to access the Database to add or modify anything.</p>
+<p>With OpenCV we have a choice from multiple algorithms for Face Recognition : </p>
 
-<p>The Frontend was made with Angular. NodeJS and Angular installation is needed as well as Keycloak for Angular.</p>
+<ul>
+    <li>Eigenfaces.</li>
+    <li>Fisherfaces.</li>
+    <li>Local Binary Patterns Histograms.</li>
+</ul>
+
+<p>I've used the Local Binary Patterns Histograms algorithm.</p>
+
+<p>LBPH (Local Binary Pattern Histogram) is a Face-Recognition algorithm it is used to recognize the face of a person. It is known for its performance and how it is able to recognize the face of a person from both front face and side face.</p>
+
+<p>It's a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.</p>
+
+<img src="/readmeImgs/LBPH.png">
+
+<p>Note that face recognition is different of face detection :</p>
+
+<ul>
+    <li><b>Face Detection:</b> it has the objective of finding the faces (location and size) in an image and probably extract them to be used by the face recognition algorithm.</li>
+    <li><b>Face Recognition:</b> with the facial images already extracted, cropped, resized and usually converted to grayscale, the face recognition algorithm is responsible for finding characteristics which best describe the image.</li>
+</ul>
+
+<p>So in order to get good recognition rates you'll need at least 8(+-1) images for each person and the Fisherfaces method doesn't really help here. The above experiment is a 10-fold cross validated result carried out with the facerec framework at: https://github.com/bytefish/facerec. This is not a publication, so I won't back these figures with a deep mathematical analysis. Please have a look into [168] for a detailed analysis of both methods, when it comes to small training datasets.</p>
+
+<img align="center" src="/readmeImgs/DBSize.png">
+
+
 
 ```javascript
 npm install keycloak-angular keycloak-js
