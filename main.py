@@ -16,6 +16,17 @@ while(True):
 
     for (x, y, w, h) in faces:
         print(x, y, w, h)
+        # Region of Interest in the frame (Grayed)
+        roi_gray = grayedFrame[y:y+h, x:x+w]
+        # Region of Interest in the frame (Colored)
+        roi_color = frame[y:y+h, x:x+w]
+        # Rectangle
+        color = (255, 0, 0)
+        stroke = 3
+        end_width = x + w
+        end_height = y + h
+        # Adding Rectangle to the frame
+        cv2.rectangle(frame, (x, y), (end_width, end_height), color, stroke)
 
     cv2.imshow('frame', frame)
 
