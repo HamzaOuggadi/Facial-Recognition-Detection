@@ -85,7 +85,7 @@
 
 <p>It's a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.</p>
 
-<img src="/readmeImgs/LBPH.png">
+<img align="center" src="/readmeImgs/LBPH.png">
 
 <p>Note that face recognition is different of face detection :</p>
 
@@ -110,12 +110,43 @@
 
 ## Installation and Usage
 
+The following packages are needed for this project to work properly : 
 
+```python
+pip install opencv-python
+```
 
+```python
+pip install pillow --upgrade
+```
 
+<p>Imports :</p>
 
-```javascript
-npm install keycloak-angular keycloak-js
+```python
+import cv2
+import numpy as np
+import os
+import pickle
+from PIL import Image
+```
+
+<h3>Face Detection :</h3>
+
+<p>For Face Detection a Cascade Classifier <em><b>(haarcascade_frontalface_alt2.xml)</b></em> was used, it can be found in the following directory :</p>
+
+```shell
+/cascades/haarcascade_frontalface_alt2.xml
+```
+
+```python
+face_cascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_alt2.xml')
+```
+
+<h3>The input for Face Detection/Recognition is from the default Camera in your Machine.</h3>
+<p>Here is the code responsible for it :</p>
+
+```python
+cap = cv2.VideoCapture(0)
 ```
 
 <p>Keycloak on the other hand, was deployed on a docker container and port bound to the Host Machine at port 8080.
