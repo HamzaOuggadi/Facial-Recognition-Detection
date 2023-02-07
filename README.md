@@ -34,7 +34,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#screenshots">Video Sample, Screenshots</a></li>
+    <li><a href="#video-sample">Video Sample</a></li>
     <li><a href="#installation-and-usage">Installation and usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -99,7 +99,7 @@
     <li>It is provided by the OpenCV library (Open Source Computer Vision Library).</li>
 </ul>
 
-## Video Sample & Screenshots
+## Video Sample
 
 <p>Video Demo :</p>
 
