@@ -11,22 +11,21 @@
 <br />
 <div align="center">
   <a href="https://github.com/HamzaOuggadi/ProductManagement-synthese-microservice">
-    <img src="/readmeImgs" alt="Logo">
+    <img src="/readmeImgs/img.png" alt="Logo">
   </a>
 
-<h3 align="center">Product and Customer Management</h3>
+<h3 align="center">This Project was made using OpenCV and Python</h3>
 
   <p align="center">
-    Web App for Product and Customer Management
     <br />
-    <a href="https://github.com/HamzaOuggadi/ProductManagement-synthese-microservice"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/HamzaOuggadi/Facial-Recognition-Detection"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/HamzaOuggadi/ProductManagement-synthese-microservice">View Demo <em>(Under Construction)</em></a>
+    <a href="https://github.com/HamzaOuggadi/Facial-Recognition-Detection">View Demo <em>(Under Construction)</em></a>
     ·
-    <a href="https://github.com/HamzaOuggadi/ProductManagement-synthese-microservice/issues">Report Bug</a>
+    <a href="https://github.com/HamzaOuggadi/Facial-Recognition-Detection/issues">Report Bug</a>
     ·
-    <a href="https://github.com/HamzaOuggadi/ProductManagement-synthese-microservice/issues">Request Feature</a>
+    <a href="https://github.com/HamzaOuggadi/Facial-Recognition-Detection/issues">Request Feature</a>
   </p>
 </div>
 
@@ -53,10 +52,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p>This Project was made as a synthesis for the Microservices Module during my studies.</p>
-<p>Contrary to the Monolithic Architecture, Microservices allows us to build Scalable and well Maintainable Software.</p>
+<p>This Project was achieved using OpenCV and Python for Face Detection and Face Recognition.</p>
+
+<p>OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.</p>
+
+
 <p>Please find below the Technologies used for this Project.</p>
-<p>Later the Microservices were secured using Keycloak v20.0.3</p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,13 +66,12 @@
 
 ### Built With
 
-* [![Java][Java.com]][Java-url]
-* [![Spring][Spring.io]][Spring-url]
-* [![SpringSecurity][SpringSecurity.io]][Spring-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![Docker][Docker.com]][Docker-url]
-* [![Keycloak][keycloak.org]][Keycloak-url]
+<ul>
+<li>Python</li>
+<li>OpenCV</li>
+</ul>
+
+<img align="center" src="/readmeImgs/img_1.png">
 
 
 <p>This Project is composed of 5 Microservices + The Frontend : </p>
