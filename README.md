@@ -76,8 +76,9 @@
 
 ## Video Sample & Screenshots
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rZxZHQHujmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<html>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rZxZHQHujmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</html>
 
 <h4 align="center">Home Page</h4>
 <img src="/screenshots/HomePage.png" alt="">
