@@ -18,7 +18,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/HamzaOuggadi/Facial-Recognition-Detection"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.opencv.org/4.7.0/da/d60/tutorial_face_main.html"><strong>Explore the OpenCV docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/HamzaOuggadi/Facial-Recognition-Detection">View Demo <em>(Under Construction)</em></a>
@@ -74,23 +74,10 @@
 <img align="center" src="/readmeImgs/img_1.png">
 
 
-<p>This Project is composed of 5 Microservices + The Frontend : </p>
-
-<ul>
-    <li>Gateway-Service</li>
-    <li>Discovery-Service</li>
-    <li>Customer-Service</li>
-    <li>Inventory-Service</li>
-    <li>Billing-Service</li>
-</ul>
-<ul>
-    <li>Frontend</li>
-</ul>
+## Video Sample & Screenshots
 
 
-## Screenshots
-
-Screenshots from the Web Application :
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rZxZHQHujmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <h4 align="center">Home Page</h4>
 <img src="/screenshots/HomePage.png" alt="">
