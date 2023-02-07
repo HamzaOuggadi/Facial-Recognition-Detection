@@ -76,9 +76,8 @@
 
 ## Video Sample & Screenshots
 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/rZxZHQHujmg/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=rZxZHQHujmg)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rZxZHQHujmg/0.jpg)](https://www.youtube.com/watch?v=rZxZHQHujmg)
+
 
 <h4 align="center">Home Page</h4>
 <img src="/screenshots/HomePage.png" alt="">
